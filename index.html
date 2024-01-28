@@ -1,0 +1,87 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<title>
+		Interactive Card using JavaScript
+	</title>
+	<script type="text/javascript">
+		window.alert("Love, Read this for me")
+	</script>
+
+	<script type="text/javascript">
+		function message()
+		{
+			document.getElementById('mensahe').innerHTML = "<h4>My star.</h4> <p>It's a cold evening again they say</br>My Love's miles and miles away</br>And yet she still sets my heart ablaze</br>Even in this coldest state</br></br>I wanna hug her so tight</br>So tight that she'll definitely bite</br>'Cause I love her very much</br>My one and only love</br></br>To my one and only star</br>I will once again touch your heart</br>I thank you for your light</br>And for bringing joy into my life</br></br>I Love You, my one and only star<br>In the universe full of skies and stripes</p>";
+		}
+	</script>
+
+		<style type="text/css">
+
+			
+			body{
+				background-image: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(255, 255, 0) 60%);
+			}
+
+			h3 {
+				text-align: left;
+				font-size: 20px;
+			}
+
+			p{
+				font-size: 20px;
+				margin-bottom: 5px;
+				margin-top: 5px;
+			}
+
+			.showbutton{
+				border-radius: 8px;
+				border-width: 3px;
+				display: block;
+				margin: auto;
+				margin-top: 30px;
+				width: 145px;
+				height: 35px;
+				font-size: 15px;
+			}
+
+			.showbutton:hover {
+				font-family: montserrat;
+				background-color: #ece75f;
+				border: 3px solid black;
+			}
+
+			.innerlalagyanan{
+				margin: auto;
+				display: block;
+				padding: 20px;
+				border: 4px solid black;
+				border-radius: 25px;
+				width: 65%;
+				background-color: rgb(255, 255, 255, 0.7);
+			}
+
+			.outerlalagyanan{
+			padding: 200px;
+		}
+
+		.style {
+			text-align: center;
+			font-family: montserrat;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="outerlalagyanan">
+		<div class="innerlalagyanan">
+			<h1 class="style" id="mensahe">Love, I know this is not that beautiful, pero I hope you'll like it. I apologize for the grammar na agad :<</h1>
+				<button type="button" class="showbutton" onclick="message()">Show Message</button>
+		</div>
+	</div>
+</body>
+</html>
